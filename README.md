@@ -6,7 +6,7 @@ This is an API template based on FastAPI. The main purpose of this repo is to ha
 
 This template application can be run directly via `uvicorn` or as docker image.
 
-If it needs to be run via [uvicorn], the requirements in the `requirements.txt` should be installed to the environment first by using [pip].
+If it needs to be run via [uvicorn][uvicorn], the requirements in the `requirements.txt` should be installed to the environment first by using [pip][pip].
 
 ```sh
 pip install -r requirements.txt
@@ -33,8 +33,7 @@ docker-compose up --build -d app
 - Add PostgreSQL docker image to connect.
 - Exception handling
 - Test cases for all
-- GitHub actions for code quality and
-
+- ~~GitHub actions for linting~~ - OK
 
 
 [pip]: (https://pip.pypa.io/en/stable/installation/)
