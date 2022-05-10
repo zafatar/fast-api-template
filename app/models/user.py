@@ -1,3 +1,4 @@
+"""User module containing the user related classes and enums"""
 from typing import Optional, List
 from uuid import UUID, uuid4
 from enum import Enum
