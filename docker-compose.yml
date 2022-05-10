@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: ${PROJECT_NAME:-app}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PROJECT_PORT:-8081}:80"
+    restart: always
+
