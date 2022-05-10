@@ -8,6 +8,7 @@ fastapi = "==0.76.0"
 uvicorn = "==0.17.6"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
